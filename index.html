@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hotstar Clone</title>
+  </head>
+  <body>
+    <h1 style="color: grey; text-align: center; margin-bottom: 40px">
+      Get The Movie Info..
+    </h1>
+    <div id="inputWala">
+      <i class="fa-duotone fa-magnifying-glass fa-beat fa-1x"></i>
+      <input
+        type="search"
+        oninput=" debounce(main,1000)"
+        id="searchMovie"
+        placeholder="Search For A Movie..."
+      />
+    </div>
+
+    <div id="movies"></div>
+    <div id="singleMovie">
+      <div id="posterDiv"></div>
+
+      <div id="dataDiv" style="margin-left: 50px"></div>
+    </div>
+  </body>
+</html>
+<script src="./script/index.js"></script>

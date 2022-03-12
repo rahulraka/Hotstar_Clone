@@ -1,0 +1,65 @@
+body {
+  /* background-color: yellow; */
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+#inputWala {
+  background-color: rgb(219, 213, 213);
+  border-radius: 10px;
+
+  width: 50%;
+  margin: auto;
+  padding-left: 15px;
+}
+
+input {
+  background-color: rgb(219, 213, 213);
+
+  border-bottom: 1px solid tomato;
+  border: none;
+  outline: none;
+  width: 90%;
+  height: 55px;
+  padding: 8px;
+  font-size: 20px;
+}
+#movies {
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+  height: 400px;
+  overflow: auto;
+  /* background-color: aqua; */
+}
+#searchPoster {
+  width: 150px;
+  height: 150px;
+  margin-right: 50px;
+}
+#smallDiv {
+  display: flex;
+  margin-bottom: 30px;
+}
+#p {
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 30px;
+  color: rgb(163, 157, 157);
+  cursor: pointer;
+}
+#singleMovie {
+  height: 600px;
+  width: 70%;
+  /* background-color: brown; */
+  margin: auto;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  box-sizing: border-box;
+}
+#poster {
+  height: 77%;
+  width: 100%;
+}
